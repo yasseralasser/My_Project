@@ -203,7 +203,7 @@ justify-content:flex-end;
     } */
 /* end header */
 
-
+@media (min-width:992px){
 
 .header ul{
     list-style:none;
@@ -243,7 +243,7 @@ text-align:center;font-size:16px;
 .button a{text-decoration:none;}
 .button:hover{background-color:#10cab7}
 
-
+}
 
 /* start landing  */
 .landing{
