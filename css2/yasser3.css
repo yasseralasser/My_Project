@@ -103,7 +103,7 @@ body{font-family: 'Work Sans', sans-serif;}
     }
     .button a{text-decoration:none;}
     .button:hover{background-color:#10cab7}
-    .ul1{display:none}
+    .header ul + .header .links ul a{ display:none}
     
     .feature .container{display:flex;
     flex-direction:column;
