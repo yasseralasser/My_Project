@@ -22,7 +22,7 @@ body{font-family: 'Work Sans', sans-serif;}
     margin-left:auto;}
 
         /* small */
-  @media(max-width:786px){
+  @media(max-width:767px){
     .container{width:750px}
 
     .header .links{
@@ -583,7 +583,7 @@ color:#0e0d0d; line-height:2}
 .contact{
     padding-top:60px;
     padding-bottom:60px;
-    background-color:#fff
+    background-color:#f6f6f6
 }
 .contact .cont{
     font-size:30px;
