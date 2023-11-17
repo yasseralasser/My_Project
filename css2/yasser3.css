@@ -5,7 +5,7 @@
     box-sizing:border-box;
 
 }
-.fa-brands{font-size:50px; color:#f00}
+
 
 html{
     scroll-behavior:smooth}
@@ -25,6 +25,7 @@ body{font-family: 'Work Sans', sans-serif;}
   @media (max-width:767px){
     .container{width:750px}
 
+    .container{ margin: 0}
     .header .links{
         position:relative
     }
@@ -94,7 +95,7 @@ body{font-family: 'Work Sans', sans-serif;}
     .header .links ul li:not(:last-child) a{
         border-bottom:1px solid #131212
     } 
-    .button + .button a{display:none}
+    .button,.button a{display:none}
     /* .button{
         border:1px solid #10cab7;
         padding:7px;
@@ -109,7 +110,28 @@ body{font-family: 'Work Sans', sans-serif;}
     .feature .container{display:flex;
     flex-direction:column;
 text-align:center}
-  }  
+
+.landing .intro{
+    position:absolute;
+    top:10%;
+    left:10%; 
+    transform: translate (-50% , -50%);
+    text-align:center;
+    width:300px;
+    max-width:270px;
+    border-radius:10px;
+    z-index: 1
+}
+.landing .intro h1{
+    margin:0;
+    font-size:30px;
+    color:#10cab7;
+}
+  }
+  
+  
+
+
   /* medium */
 @media(min-width:992px){
     .container{width:970px}
