@@ -94,6 +94,7 @@ body{font-family: 'Work Sans', sans-serif;}
     .header .links ul li:not(:last-child) a{
         border-bottom:1px solid #131212
     } 
+    .button{display:none}
     /* .button{
         border:1px solid #10cab7;
         padding:7px;
